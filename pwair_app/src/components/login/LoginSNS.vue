@@ -1,6 +1,7 @@
 <template lang="html">
   <div class="">
-     LoginSNS
+     <button>Google</button>
+     <button>Facebook</button>
   </div>
 </template>
 

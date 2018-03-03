@@ -1,7 +1,7 @@
 <template lang="html">
-  <div class="">
-     LoginHeader
-  </div>
+  <header class="">
+     <h1>PWAir</h1>
+  </header>
 </template>
 
 <script>

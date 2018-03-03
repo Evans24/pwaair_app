@@ -6,7 +6,20 @@
     <link rel="stylesheet" href="//fonts.googleapis.com/css?family=Roboto:400,500,700,400italic|Material+Icons">
   </head>
   <body>
-    <div id="app"></div>
+    <div id="app"></div>    
+    <script src="https://www.gstatic.com/firebasejs/4.10.1/firebase.js"></script>
+    <script>
+      // Initialize Firebase
+      var config = {
+        apiKey: "AIzaSyBloSXXdvJ_4Iwg1kE219SGKv2HpNkRzOY",
+        authDomain: "pwair-app.firebaseapp.com",
+        databaseURL: "https://pwair-app.firebaseio.com",
+        projectId: "pwair-app",
+        storageBucket: "pwair-app.appspot.com",
+        messagingSenderId: "533192002402"
+      };
+      firebase.initializeApp(config);
+    </script>
     <script src="/dist/build.js"></script>
   </body>
 </html>
